@@ -1,4 +1,3 @@
-DOCUMENTATION
 # Project - Number Guessing Game
 ## Project Description
    This project is a simple implementation of the “Guess the Number” game using the Java programming language. The player will be asked to guess a secret number    randomly selected by the program, within the range of 1 to 10. The program will give hints whether the guess is too low, too high, or already correct. The game continues until the player successfully guesses the right number.
@@ -9,7 +8,7 @@ DOCUMENTATION
       - `Too low!` if the guess number is smaller than the secret number. 
       - `Too high! ` if the guessed number is greater than the secret number. 
       - `Congratulations! You guessed the number in X tries!` if the guess is correct. 
-   4.	The game will keep repeating until the player successfully guesses the secret number correctly. At the end of the game, the number of tries required will be        displayed.
+   4.	The game will keep repeating until the player successfully guesses the secret number correctly. At the end of the game, the number of tries required will be displayed.
 ## Example of Display in Console
 Selamat Datang di Permainan Tebak Angka!
 Saya telah memilih sebuah angka antara 1 dan 10.
@@ -35,11 +34,11 @@ To run this game, you need to have the Java Development Kit (JDK) installed on y
       Make sure the `GameTebakAngka.java` file is inside the `src/` folder inside your project directory.
    2.	Compile Code
       Open your terminal or command prompt, navigate to the project root directory (`your-project-folder-name/`), then compile the Java files:
-    	```bash
- 	    javac src/GameTebakAngka.java
-      ```
-   3.	Run the Program
+     	
+ 	   javac src/GameTebakAngka.java
+      
+   4.	Run the Program
       Once successfully compiled, you can run the game:
-   	  ```bash
- 	    java -cp src GameTebakAngka
- 	    ```
+     	
+      java -cp src GameTebakAngka
+ 	   
