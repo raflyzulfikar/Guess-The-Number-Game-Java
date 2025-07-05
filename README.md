@@ -10,6 +10,7 @@
       - `Congratulations! You guessed the number in X tries!` if the guess is correct. 
    4.	The game will keep repeating until the player successfully guesses the secret number correctly. At the end of the game, the number of tries required will be displayed.
 ## Example of Display in Console
+```
 Selamat Datang di Permainan Tebak Angka!
 Saya telah memilih sebuah angka antara 1 dan 10.
 Bisakah kamu menebaknya?
@@ -23,6 +24,7 @@ Tebakanmu: 9
 Selamat! Kamu berhasil menebak angkanya dalam 4 percobaan!
 ## Project Structure
 The project is very simple and consists of only one Java file:
+```
 . 
 └── src/ 
     └── GameTebakAngka.java 	
