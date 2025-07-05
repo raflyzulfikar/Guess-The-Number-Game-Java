@@ -22,9 +22,9 @@ Tebakanmu: 8
 Terlalu rendah! Coba lagi.
 Tebakanmu: 9
 Selamat! Kamu berhasil menebak angkanya dalam 4 percobaan!
+```
 ## Project Structure
 The project is very simple and consists of only one Java file:
-```
 . 
 └── src/ 
     └── GameTebakAngka.java 	
