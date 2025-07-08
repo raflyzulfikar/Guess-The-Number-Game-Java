@@ -6,9 +6,9 @@
    1.	The program will randomly select an integer number between 1 and 10 (inclusive). 
    2.	Players will be required to enter their guesses. 
    3.	After each guess, the program will tell whether the player's guess is: 
-      `Terlalu rendah!` if the guess number is smaller than the secret number. 
-      `Terlalu tinggi!` if the guessed number is greater than the secret number. 
-      `Selamat! Kamu berhasil menebak angkanya dalam X percobaan!` if the guess is correct. 
+      * `Terlalu rendah!` if the guess number is smaller than the secret number. 
+      * `Terlalu tinggi!` if the guessed number is greater than the secret number. 
+      * `Selamat! Kamu berhasil menebak angkanya dalam X percobaan!` if the guess is correct. 
    4.	The game will keep repeating until the player successfully guesses the secret number correctly. At the end of the game, the number of tries required will be displayed.
 ## Example of Display in Console
 ```
