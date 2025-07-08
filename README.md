@@ -1,16 +1,14 @@
 # Project - Number Guessing Game
 ## Project Description
    This project is a simple implementation of the “Guess the Number” game using the Java programming language. The player will be asked to guess a secret number randomly selected by the program, within the range of 1 to 10. The program will give hints whether the guess is too low, too high, or already correct. The game continues until the player successfully guesses the right number.
-```
 *(Please note: Some parts of the codebase, including variable names, are written in Indonesian for clarity among local developers.)*
-```
 ## How the Game Works
    1.	The program will randomly select an integer number between 1 and 10 (inclusive). 
    2.	Players will be required to enter their guesses. 
    3.	After each guess, the program will tell whether the player's guess is: 
-      * `Terlalu rendah!` if the guess number is smaller than the secret number. 
-      * `Terlalu tinggi!` if the guessed number is greater than the secret number. 
-      * `Selamat! Kamu berhasil menebak angkanya dalam X percobaan!` if the guess is correct. 
+      `Terlalu rendah!` if the guess number is smaller than the secret number. 
+      `Terlalu tinggi!` if the guessed number is greater than the secret number. 
+      `Selamat! Kamu berhasil menebak angkanya dalam X percobaan!` if the guess is correct. 
    4.	The game will keep repeating until the player successfully guesses the secret number correctly. At the end of the game, the number of tries required will be displayed.
 ## Example of Display in Console
 ```
